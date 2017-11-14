@@ -173,6 +173,6 @@ clean :
 clean_trail :
 	-@rm *.pml.trail
 
-.PHONY : clean
+.PHONY : clean_bin
 clean_bin :
 	-@rm $(BINDIR)/*
